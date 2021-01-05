@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgb(207, 202, 202);
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------------------------ */
+/* --navigation-div-- */
+/* ------------------------ */
+
+.navigation {
+  width: 100%;
+  height: 62px;
+  background-color: rgb(56, 56, 56);
+  box-sizing: border-box;
+  border-bottom: rgb(201, 199, 199) solid 2.5px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  cursor: pointer;
+}
+
+/* --------------left-navigation----------------- */
+
+.navigation .left-nav {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  align-items: center;
+}
+
+.navigation .left-nav .img-icon {
+  border-radius: 50%;
+  margin: 0 15px;
+  font-size: 38px;
+}
+
+.navigation .left-nav .img-icon .fab {
+  background-color: white;
+  color: #4267b2;
+  border-radius: 50%;
+}
+
+.navigation .left-nav .search-bar input {
+  height: 44px;
+  width: 255px;
+  border-radius: 30px;
+  font-size: 1.6rem;
+  background-color: rgba(126, 125, 125, 0.486);
+  text-align: center;
+  border: none;
+  color: rgb(207, 202, 202);
+}
+/* -------------center navigation------------------- */
+.navigation .center-nav {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+}
+
+.navigation .center-nav .center-nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  color: rgb(207, 202, 202);
+  border-radius: 10px;
+}
+
+/* --------------right-navigation---------- */
+
+.navigation .right-nav {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+}
+
+.navigation .right-nav .right-nav-icons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  color: rgb(207, 202, 202);
+}
+
+/* ----------------------------------------------------------------- */
+/* --------------------------center-container---------------------- */
+/* ----------------------------------------------------------------- */
+
+.center-container {
+  background-color: #1c1d1d;
+  width: 100%;
+  height: calc(100vh - 62px);
+  min-height: calc(100vh - 62px);
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+/* -------------------left center container------------------ */
+
+.center-container .center-left-box {
+  height: 100%;
+  width: 25%;
+  overflow: hidden;
+  cursor: pointer;
+
+  /* background-color: rgb(56, 56, 56); */
+}
+
+.center-container .center-left-icons {
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(207, 202, 202);
+  border-radius: 10px;
+}
+
+.center-left-box:hover {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* --------------center container---------------- */
+
+.center-container .center-box {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+
+  /* background-color: rgb(56, 56, 56); */
+  /* display: flex; */
+  /* align-items: flex-start; */
+  /* font-size: 35px; */
+  /* text-align: center; */
+}
+
+/* ---center container center-box box-one */
+
+.center-container .center-box .center-box-one {
+  margin: 12px auto;
+  border-radius: 6px;
+  background-color: rgb(56, 56, 56);
+
+  /* height: 62px; */
+  width: 90%;
+  text-align: left;
+  padding-left: 12px;
+  display: flex;
+}
+
+/* .center-container .center-box .center-box-one:hover{
+    
+}  */
+
+.center-box .center-box-one .plus-icon {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  color: #4267b2;
+}
+
+.center-container .center-box .center-box-one .heading-para {
+  padding: 10px;
+  display: inline;
+  font-size: 20px;
+}
+
+/* ------center container center-box box-two--------- */
+
+.center-container .center-box-two {
+  display: flex;
+  margin: 10px auto;
+  text-align: center;
+  align-items: center;
+  /* height: 10%; */
+  width: 92%;
+  /* background-color: bisque; */
+  background-color: rgb(56, 56, 56);
+  padding: 12px 0;
+
+  border-radius: 6px;
+}
+
+.center-container .center-box-two .person-image i {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  margin-left: 5px;
+  color: rgb(207, 202, 202);
+}
+
+.center-container .center-box-two input {
+  width: 75%;
+  border-radius: 50px;
+  border: none;
+  margin-left: 10px;
+  background-color: rgba(5, 5, 5, 0.137);
+  font-size: larger;
+  padding: 10px;
+  color: rgb(207, 202, 202);
+}
+
+/* .center-box .center-box-two .livevideo-video-felling ul{
+    display: block;
+    margin: 10px auto;
+} */
+
+.center-container .center-box .center-box-three {
+  margin: 12px auto;
+  border-radius: 6px;
+  /* background-color:aquamarine; */
+  background-color: rgb(56, 56, 56);
+  height: 127px;
+  width: 84.5%;
+  padding: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: #0152f5;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(207, 202, 202);
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 15px;
+}
+
+/* ---------center right cointner---------- */
+
+.center-container .center-right-box {
+  width: 18%;
+  height: 100%;
+  /* background-color: orange; */
+  display: block;
+  font-size: 35px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.center-container .center-right-box .sponsored {
+  margin: 12px auto;
+  border-radius: 6px;
+  /* background-color: aqua; */
+  height: 35px;
+  width: 94%;
+  text-align: start;
+  padding-left: 12px;
+  font-size: large;
+  display: flex;
+}
+
+.center-container .center-right-box .your-pages {
+  /* display: block; */
+  border-radius: 6px;
+  /* background-color:plum; */
+  height: 17%;
+  width: 94%;
+  text-align: justify;
+  padding-left: 12px;
+  font-size: large;
+}
+
+.center-container .center-right-box .your-pages ul li {
+  list-style: none;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.center-container .center-right-box .your-pages ul li i {
+  padding-right: 10px;
+}
+
+.hover-style:hover {
+  background-color: rgb(56, 56, 56);
+  /* background-color: red; */
+}
+
+.hover-style-nav:hover {
+  background-color: rgb(71, 70, 70);
+}
